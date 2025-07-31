@@ -1,0 +1,56 @@
+/* Typography */
+body {
+  font-family: 'Open Sans', sans-serif;
+  background-color: #ffffff;
+  color: #222;
+  margin: 2rem;
+  line-height: 1.6;
+}
+
+h1, h2 {
+  font-family: 'Poppins', sans-serif;
+  color: #d94f70;
+}
+
+h1 {
+  font-size: 2rem;
+  border-bottom: 2px solid #d94f70;
+  padding-bottom: 0.5rem;
+}
+
+section {
+  margin-bottom: 2rem;
+}
+
+ul {
+  padding-left: 1.5rem;
+}
+
+/* Color Schema Samples */
+.color-sample {
+  display: inline-block;
+  width: 100px;
+  height: 30px;
+  margin: 5px;
+  text-align: center;
+  color: #fff;
+  line-height: 30px;
+  border-radius: 4px;
+  font-size: 0.85rem;
+}
+
+.primary {
+  background-color: #d94f70;
+}
+
+.secondary {
+  background-color: #4fc3f7;
+}
+
+/* Responsive Images */
+img {
+  max-width: 100%;
+  height: auto;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+}
