@@ -1,0 +1,67 @@
+/* larger.css */
+
+/* Media query para pantallas de al menos 768px */
+@media screen and (min-width: 768px) {
+  header,
+  nav,
+  main,
+  footer {
+    max-width: 1000px;
+    margin: 0 auto;
+  }
+
+  nav ul {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  nav ul li {
+    margin: 0 1rem;
+  }
+
+  .menu-icon {
+    display: none;
+  }
+
+  .hero {
+    flex-direction: row;
+    gap: 2rem;
+  }
+
+  .hero img {
+    width: 50%;
+  }
+
+  .cards {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1.5rem;
+  }
+
+  .card {
+    padding: 1.5rem;
+    font-size: 1rem;
+  }
+
+  .about,
+  .contact {
+    display: flex;
+    gap: 2rem;
+    align-items: center;
+  }
+
+  .about img,
+  .contact img {
+    max-width: 45%;
+  }
+
+  form {
+    flex: 1;
+  }
+
+  footer {
+    text-align: center;
+    padding: 1.5rem 0;
+    font-size: 0.95rem;
+  }
+}
